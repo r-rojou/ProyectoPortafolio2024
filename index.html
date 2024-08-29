@@ -4,12 +4,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <title>Demo</title>
+    <link href="./assets/css/misestilos.css" rel="stylesheet">
+    <title>Portafolio</title>
   </head>
   <body>
+    <header class="col-xs-12">
+      <h1 class="d-flex justify-content-center">Mi Portafolio 2024</h1>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <article class="col-xs-12 col-md-8">
+          <p id="parrafoMain">Desarrollador Front-End en formación</p>
+          <ul>
+            <li>
+              asad
+            </li>
+            <br>
+            <li>
+              asdasd
+            </li>
+            <br>
+            <li>
+              asdasd
+            </li>
+            <br>
+            <li>
+              asdasfas
+            </li>
+          </ul>
+        </article>
+        <div id="rightSide"class="col-xs-12 col-md-4">
+          <img id="imgProg" src="./assets/img/programming.jpg" alt="">
+        </div>
+      </div>
+    </main> 
+    <br>
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-dark btn-lg" onclick="mostrarForm()">Contacto</button>
+    </div>
+      <div class="container" id="contenedorForm">
+        <form>
+        <div class="mb-3">
+          <label for="emailContacto" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+        </div>
+        <div class="mb-3">
+          <label for="telefonoContacto" class="form-label">Teléfono:</label>
+          <input type="number" class="form-control" id="telefonoContacto">
+        </div>
+  
+        <button id="btnForm" type="button" onclick="mostrarMensaje()"class="btn btn-dark">Enviar</button>
+        </form>
+      </div>
+      <br>
     
-    <h1>Título</h1>
     
+    
+    
+
+    <footer>
+      <div class="d-flex flex-row-reverse">
+          <p>Desarrollado por Raúl Rojo 2024</p>
+      </div>
+    </footer>
+    
+    
+
+    <script src="./assets/js/jquery-3.7.1.js"></script>
+    <script src="./assets/js/misscripts.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
