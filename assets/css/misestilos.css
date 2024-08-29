@@ -31,7 +31,6 @@ body{
 }
 
 #contenedorForm{
-    display: none;
     background-color: rgb(243, 212, 217);
     border: 1px solid black;
     padding-top: 20px;
